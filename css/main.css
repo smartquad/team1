@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+/* contact form */
+.contact__form{
+    background-color: blue;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px rgb(136, 133, 133);
+
+}
+#userMessage{
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;
+    padding: 5%;
+    color: rgb(134, 122, 122);
+    
+
+}
+.input__area{
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+.input__area > [type=text], textarea{
+    width: 100%;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:lightcyan;
+}
+#userMessage > span{
+    text-align: center;
+    color: white;
+}
+#submit{
+    width: 100px;
+    margin-left: 38%;
+    margin-bottom: 10px;
+    background-color: rgb(3, 3, 19); 
+    border: none;
+    color: rgb(161, 86, 86);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+.contact__page{
+    display: flex;
+    max-width: 760px;
+    height: auto;
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+.social__links{
+    background-color: white; 
+    width: 30%; 
+    height: 300px;
+    margin-top: 15%;
+    margin-right: 20px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px rgb(136, 133, 133);
+}
+.social__content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(3, 3, 19);
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.product__1{
+    background-color: white;
+    max-width: 200px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+.product__1:hover{
+    cursor: pointer;
+
+}
+.product__1 > img{
+    margin: 5px 5px;
+    border-radius: 10%;
+    object-fit: contain;
+}
+.product__1 > h4{
+    text-align: center;
+    padding-top: 5px;
+}
+.product__1 > p{
+    text-align: center;
+    padding-top: 2px;
+}
+.btn{
+    background-color: rgb(3, 3, 19);
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    position: center;
+    border-radius: 10%;
+}
+.btn > a{
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+}
+/* orderForm styling */
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(3, 3, 19);
+}
+.order__form{
+    background-color: white;
+    display: block;
+    max-width: 400px;
+    margin: 5% auto;
+    box-shadow: 5px 5px 5px 5px rgb(136, 133, 133);
+    
+}
+.order__form > img{
+    width: 100px;
+    object-fit: contain;
+    margin-left: 38%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.userdata{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.userdata > span{
+    padding: 10px;
+}
+.input__area{
+    color:rgb(3, 3, 19);
+    font-size: larger;
+}
+.input__area > input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+.submit{
+    width: 100px;
+    margin-left: 38%;
+    margin-bottom: 10px;
+    background-color: rgb(3, 3, 19); 
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: indigo;
+}
